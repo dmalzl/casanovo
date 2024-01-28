@@ -1,0 +1,56 @@
+2024-01-04 00:54:49,301 INFO [casanovo/MainProcess] casanovo._get_model_weights : Model weights file /lisc/user/trinh/.cache/casanovo/casanovo_massivekb_v4_0_0.ckpt retrieved from local cache
+2024-01-04 00:54:49,302 INFO [casanovo/MainProcess] casanovo.setup_model : Casanovo version 4.0.1
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : model = /lisc/user/trinh/.cache/casanovo/casanovo_massivekb_v4_0_0.ckpt
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : config = default
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : output = /lisc/user/trinh/.conda/envs/casanovo_env/lib/python3.10/site-packages/casanovo/data/casanovo_20240104005449
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : precursor_mass_tol = 50.0
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : isotope_error_range = (0, 1)
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : min_peptide_len = 6
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : predict_batch_size = 1024
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_beams = 1
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : top_match = 1
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : accelerator = auto
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : devices = None
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : random_seed = 454
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_log = 1
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : tb_summarywriter = None
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : save_top_k = 5
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : model_save_folder_path = 
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : val_check_interval = 50000
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_peaks = 150
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : min_mz = 50.0
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : max_mz = 2500.0
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : min_intensity = 0.01
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : remove_precursor_tol = 2.0
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : max_charge = 10
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : dim_model = 512
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_head = 8
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : dim_feedforward = 1024
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_layers = 9
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : dropout = 0.0
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : dim_intensity = None
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : max_length = 100
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : warmup_iters = 100000
+2024-01-04 00:54:49,302 DEBUG [casanovo/MainProcess] casanovo.setup_model : max_iters = 600000
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : learning_rate = 0.0005
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : weight_decay = 1e-05
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : train_label_smoothing = 0.01
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : train_batch_size = 32
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : max_epochs = 30
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : num_sanity_val_steps = 0
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : train_from_scratch = True
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : calculate_precision = False
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : residues = {'G': 57.021464, 'A': 71.037114, 'S': 87.032028, 'P': 97.052764, 'V': 99.068414, 'T': 101.04767, 'C+57.021': 160.030649, 'L': 113.084064, 'I': 113.084064, 'N': 114.042927, 'D': 115.026943, 'Q': 128.058578, 'K': 128.094963, 'E': 129.042593, 'M': 131.040485, 'H': 137.058912, 'F': 147.068414, 'R': 156.101111, 'Y': 163.063329, 'W': 186.079313, 'M+15.995': 147.0354, 'N+0.984': 115.026943, 'Q+0.984': 129.042594, '+42.011': 42.010565, '+43.006': 43.005814, '-17.027': -17.026549, '+43.006-17.027': 25.980265}
+2024-01-04 00:54:49,303 DEBUG [casanovo/MainProcess] casanovo.setup_model : n_workers = 128
+2024-01-04 00:54:49,306 INFO [casanovo/MainProcess] casanovo.sequence : Sequencing peptides from:
+2024-01-04 00:54:49,306 INFO [casanovo/MainProcess] casanovo.sequence :   /lisc/user/trinh/casanovo_test/sample_preprocessed_spectra.mgf
+2024-01-04 00:54:49,444 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /lisc/user/trinh/.conda/envs/casanovo_env/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:191: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /lisc/user/trinh/.conda/envs/casanovo_env/bin/casano ...
+
+2024-01-04 00:54:49,444 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /lisc/user/trinh/.conda/envs/casanovo_env/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:191: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /lisc/user/trinh/.conda/envs/casanovo_env/bin/casano ...
+
+2024-01-04 00:54:58,489 INFO [depthcharge.data.hdf5/MainProcess] hdf5.__init__ : Reading 1 files...
+2024-01-04 00:54:58,795 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /lisc/user/trinh/.conda/envs/casanovo_env/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:191: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /lisc/user/trinh/.conda/envs/casanovo_env/bin/casano ...
+
+2024-01-04 00:54:58,795 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /lisc/user/trinh/.conda/envs/casanovo_env/lib/python3.10/site-packages/lightning/fabric/plugins/environments/slurm.py:191: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /lisc/user/trinh/.conda/envs/casanovo_env/bin/casano ...
+
+2024-01-04 00:55:29,531 INFO [casanovo/MainProcess] casanovo.sequence : DONE!

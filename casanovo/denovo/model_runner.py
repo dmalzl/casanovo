@@ -390,6 +390,8 @@ class ModelRunner:
 
         Index = AnnotatedSpectrumIndex if annotated else SpectrumIndex
         valid_charge = np.arange(1, self.config.max_charge + 1)
+        print(index_fname)
+        print(filenames)
         return Index(index_fname, filenames, valid_charge=valid_charge)
 
     def _get_strategy(self) -> Union[str, DDPStrategy]:
